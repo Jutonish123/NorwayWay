@@ -27,7 +27,9 @@
 				<h1>Великолепные Фьорды <br> Норвегии</h1>
 			</div>
 			<div class="learn">
-				<p>Узнайте больше</p>
+				<a href="#" class="learn_link">
+					<p>Узнайте больше</p>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -101,12 +103,14 @@ form
 	color: $white
 	font-size: 18px
 	margin-top: 24px
+	&_link
+		text-decoration: none
+		color: $white
 
 .search-button
   background: none
   outline: none
   border: none
-
   cursor: pointer
   & .material-icons
     color: $white

@@ -115,4 +115,8 @@ form
   & .material-icons
     color: $white
 
+#search
+  color: $white
+  font-size: inherit
+
 </style>

@@ -11,10 +11,16 @@
 				<router-link class="navigation-link" to="#">Полезные статьи</router-link>
 				<router-link class="navigation-link" to="#">Контакты</router-link>
 			</div>
-			<form>
-				<input type="text">
-				<button type="submit"></button>
-			</form>
+      <form>
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search">
+            <button type="submit" class="search-button">
+              <i class="material-icons">search</i>
+            </button>
+          </label>
+        </div>
+      </form>
 		</div>
 		<div class="pageTitle center">
 			<div class="title">
@@ -29,7 +35,7 @@
 <script>
 
 export default {
-	name: 'Header'
+	name: 'Header',
 }
 
 </script>
@@ -95,5 +101,14 @@ form
 	color: $white
 	font-size: 18px
 	margin-top: 24px
-			
+
+.search-button
+  background: none
+  outline: none
+  border: none
+
+  cursor: pointer
+  & .material-icons
+    color: $white
+
 </style>

@@ -26,11 +26,9 @@
 			<div class="title">
 				<h1>Великолепные Фьорды <br> Норвегии</h1>
 			</div>
-			<div class="learn">
-				<a href="#" class="learn_link">
-					<p>Узнайте больше</p>
-				</a>
-			</div>
+      <a href="#" class="learn_link">
+        <p>Узнайте больше</p>
+      </a>
 		</div>
 	</div>
 </template>
@@ -99,13 +97,16 @@ form
 	font-size: 64px
 	color: $white
 	font-weight: 300
-.learn
-	color: $white
-	font-size: 18px
-	margin-top: 24px
-	&_link
-		text-decoration: none
-		color: $white
+
+.learn_link
+  color: $white
+  font-size: 18px
+  margin-top: 24px
+
+  text-decoration: none
+&:hover
+  text-decoration: underline
+
 
 .search-button
   background: none

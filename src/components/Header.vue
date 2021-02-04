@@ -104,8 +104,8 @@ form
   margin-top: 24px
 
   text-decoration: none
-&:hover
-  text-decoration: underline
+  &:hover
+    text-decoration: underline
 
 
 .search-button
